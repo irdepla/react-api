@@ -10,7 +10,6 @@ function App() {
   async function getProducts() {
     const res = await axios.get("http://localhost:5000/products")
     const products = res.data.data;
-    console.log(products);
     setProducts(products)
   }
 
