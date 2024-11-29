@@ -1,0 +1,50 @@
+.container{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+
+.wrapper{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main__title{
+  text-align: center;
+}
+
+.products__card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.main__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.product__name{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.card{
+  padding: 10px;
+}
+
+
+
+.product__price{
+  font-weight: bold;
+}
+
+
+img{
+  border-radius: 8px;
+}
